@@ -1,0 +1,19 @@
+Declare 
+a number;
+b number;
+c number;
+procedure find_min (x in number , y in number , z out number)
+is
+begin
+   if (x<y) then
+z := x;
+else
+z:=y;
+end if;
+end ;
+begin 
+a:=10;
+b:= 20;
+find_min(a,b,c);
+dbms_output.put_line(c||' is smallest');
+end;
