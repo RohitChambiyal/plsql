@@ -1,0 +1,5 @@
+create or replace procedure empssss
+as
+Begin
+dbms_output.put_line('hello');
+end empssss;
